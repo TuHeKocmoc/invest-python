@@ -1,3 +1,10 @@
+import os
+
+# Force protobuf to use the pure-Python implementation to avoid C-extension
+# compatibility issues on Python 3.14.
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+os.environ.setdefault("PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION_VERSION", "python3")
+
 from .clients import AsyncClient, Client
 from .exceptions import AioRequestError, InvestError, RequestError
 from .logging import get_current_tracking_id
