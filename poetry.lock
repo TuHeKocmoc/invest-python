@@ -724,14 +724,18 @@ test = ["pytest-cov"]
 
 [[package]]
 name = "flake8-logging-format"
-version = "0.6.0"
-description = "Flake8 extension to validate (lack of) logging format strings"
+version = "2024.24.12"
+description = ""
 optional = false
 python-versions = "*"
 groups = ["dev"]
 files = [
-    {file = "flake8-logging-format-0.6.0.tar.gz", hash = "sha256:ca5f2b7fc31c3474a0aa77d227e022890f641a025f0ba664418797d979a779f8"},
+    {file = "flake8_logging_format-2024.24.12-py3-none-any.whl", hash = "sha256:7d93c2107354b10a05b1a0d8ccd3a9bfb793aee108007765114c958a7541d674"},
 ]
+
+[package.extras]
+lint = ["flake8"]
+test = ["PyHamcrest", "pytest", "pytest-cov"]
 
 [[package]]
 name = "flake8-plugin-utils"
@@ -3098,4 +3102,4 @@ all = ["matplotlib", "mplfinance", "numpy", "pandas"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.8"
-content-hash = "9163cadddd7fbed82d0ce4b9cb49ee3bd0e9455bed5787e71b5a2f0700dd25c8"
+content-hash = "810d8e45f2ff10abb69890de61ac99817654556508df1f91090ff04cc7ae5b12"
