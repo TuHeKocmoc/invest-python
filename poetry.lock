@@ -2805,14 +2805,28 @@ files = [
 
 [[package]]
 name = "types-python-dateutil"
-version = "2.8.19.6"
+version = "2.9.0.20241206"
 description = "Typing stubs for python-dateutil"
 optional = false
-python-versions = "*"
+python-versions = ">=3.8"
 groups = ["dev"]
+markers = "python_version < \"3.10\""
 files = [
-    {file = "types-python-dateutil-2.8.19.6.tar.gz", hash = "sha256:4a6f4cc19ce4ba1a08670871e297bf3802f55d4f129e6aa2443f540b6cf803d2"},
-    {file = "types_python_dateutil-2.8.19.6-py3-none-any.whl", hash = "sha256:cfb7d31021c6bce6f3362c69af6e3abb48fe3e08854f02487e844ff910deec2a"},
+    {file = "types_python_dateutil-2.9.0.20241206-py3-none-any.whl", hash = "sha256:e248a4bc70a486d3e3ec84d0dc30eec3a5f979d6e7ee4123ae043eedbb987f53"},
+    {file = "types_python_dateutil-2.9.0.20241206.tar.gz", hash = "sha256:18f493414c26ffba692a72369fea7a154c502646301ebfe3d56a04b3767284cb"},
+]
+
+[[package]]
+name = "types-python-dateutil"
+version = "2.9.0.20260124"
+description = "Typing stubs for python-dateutil"
+optional = false
+python-versions = ">=3.9"
+groups = ["dev"]
+markers = "python_version >= \"3.10\""
+files = [
+    {file = "types_python_dateutil-2.9.0.20260124-py3-none-any.whl", hash = "sha256:f802977ae08bf2260142e7ca1ab9d4403772a254409f7bbdf652229997124951"},
+    {file = "types_python_dateutil-2.9.0.20260124.tar.gz", hash = "sha256:7d2db9f860820c30e5b8152bfe78dbdf795f7d1c6176057424e8b3fdd1f581af"},
 ]
 
 [[package]]
@@ -3102,4 +3116,4 @@ all = ["matplotlib", "mplfinance", "numpy", "pandas"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.8"
-content-hash = "810d8e45f2ff10abb69890de61ac99817654556508df1f91090ff04cc7ae5b12"
+content-hash = "b12b140b426a3e7b879d9c3f5bdddcee11fbd324cc73b343cb75d5df50a75661"
