@@ -705,22 +705,43 @@ flake8-plugin-utils = ">=1.0,<2.0"
 
 [[package]]
 name = "flake8-isort"
-version = "4.2.0"
-description = "flake8 plugin that integrates isort ."
+version = "6.1.1"
+description = "flake8 plugin that integrates isort"
 optional = false
-python-versions = "*"
+python-versions = ">=3.8"
 groups = ["dev"]
+markers = "python_version < \"3.10\""
 files = [
-    {file = "flake8-isort-4.2.0.tar.gz", hash = "sha256:26571500cd54976bbc0cf1006ffbcd1a68dd102f816b7a1051b219616ba9fee0"},
-    {file = "flake8_isort-4.2.0-py3-none-any.whl", hash = "sha256:5b87630fb3719bf4c1833fd11e0d9534f43efdeba524863e15d8f14a7ef6adbf"},
+    {file = "flake8_isort-6.1.1-py3-none-any.whl", hash = "sha256:0fec4dc3a15aefbdbe4012e51d5531a2eb5fa8b981cdfbc882296a59b54ede12"},
+    {file = "flake8_isort-6.1.1.tar.gz", hash = "sha256:c1f82f3cf06a80c13e1d09bfae460e9666255d5c780b859f19f8318d420370b3"},
 ]
 
 [package.dependencies]
-flake8 = ">=3.2.1,<6"
-isort = ">=4.3.5,<6"
+flake8 = "*"
+isort = ">=5.0.0,<6"
 
 [package.extras]
-test = ["pytest-cov"]
+test = ["pytest"]
+
+[[package]]
+name = "flake8-isort"
+version = "6.1.2"
+description = "flake8 plugin that integrates isort"
+optional = false
+python-versions = ">=3.9"
+groups = ["dev"]
+markers = "python_version >= \"3.10\""
+files = [
+    {file = "flake8_isort-6.1.2-py3-none-any.whl", hash = "sha256:549197dedf0273502fb74f04c080beed9e62a7eb70244610413d27052e78bd3b"},
+    {file = "flake8_isort-6.1.2.tar.gz", hash = "sha256:9d0452acdf0e1cd6f2d6848e3605e66b54d920e73471fb4744eef0f93df62d5d"},
+]
+
+[package.dependencies]
+flake8 = "*"
+isort = ">=5.0.0,<7"
+
+[package.extras]
+test = ["pytest"]
 
 [[package]]
 name = "flake8-logging-format"
@@ -3117,4 +3138,4 @@ all = ["matplotlib", "mplfinance", "numpy", "pandas"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.8"
-content-hash = "a7aa662fed46a48079477f4077b5c1a8127b5f909377eb0d13174dadb99021ac"
+content-hash = "e6cf66ed57275563c3b9cf277d2e3958ffc9566a4da7edcfa0a1ba00b3865b86"
