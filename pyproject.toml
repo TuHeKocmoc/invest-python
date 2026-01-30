@@ -19,7 +19,7 @@ exclude = ["tinkoff/__init__.py"]
 [tool.poetry.dependencies]
 python = "^3.8"
 cachetools = "^5.2.0"
-grpcio = "^1.39.0"
+grpcio = "^1.53.2"
 protobuf = "^4.21.6"
 python-dateutil = "^2.8.2"
 deprecation = "^2.1.0"
@@ -38,7 +38,7 @@ tomlkit = "^0.13.3"
 [tool.poetry.group.dev.dependencies]
 autoflake = "^1.4"
 bandit = "^1.7.10"
-black = {extras = ["jupyter"], version = "^22.1.0"}
+black = {extras = ["jupyter"], version = "^24.3.0"}
 codecov = "^2.1.12"
 flake8 = "^4.0.1"
 flake8-annotations-complexity = "^0.0.6"
@@ -68,7 +68,7 @@ pytest-cov = "^3.0.0"
 pytest-deadfixtures = "^2.2.1"
 pytest-freezegun = "^0.4.2"
 pytest-mock = "^3.6.1"
-requests = "^2.27.1"
+requests = "^2.32.4"
 ruff = "^0.0.188"
 toml-sort = "^0.19.0"
 types-cachetools = "^5.2.1"
