@@ -33,7 +33,7 @@ all = ["pandas", "numpy", "matplotlib", "mplfinance"]
 
 [tool.poetry.group.bump.dependencies]
 PyYAML = "^6.0"
-tomlkit = "^0.11.6"
+tomlkit = "^0.13.3"
 
 [tool.poetry.group.dev.dependencies]
 autoflake = "^1.4"
