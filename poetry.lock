@@ -809,18 +809,35 @@ test = ["pytest"]
 
 [[package]]
 name = "flake8-comprehensions"
-version = "3.10.1"
+version = "3.15.0"
 description = "A flake8 plugin to help you write better list/set/dict comprehensions."
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 groups = ["dev"]
+markers = "python_version < \"3.10\""
 files = [
-    {file = "flake8-comprehensions-3.10.1.tar.gz", hash = "sha256:412052ac4a947f36b891143430fef4859705af11b2572fbb689f90d372cf26ab"},
-    {file = "flake8_comprehensions-3.10.1-py3-none-any.whl", hash = "sha256:d763de3c74bc18a79c039a7ec732e0a1985b0c79309ceb51e56401ad0a2cd44e"},
+    {file = "flake8_comprehensions-3.15.0-py3-none-any.whl", hash = "sha256:b7e027bbb52be2ceb779ee12484cdeef52b0ad3c1fcb8846292bdb86d3034681"},
+    {file = "flake8_comprehensions-3.15.0.tar.gz", hash = "sha256:923c22603e0310376a6b55b03efebdc09753c69f2d977755cba8bb73458a5d4d"},
 ]
 
 [package.dependencies]
-flake8 = ">=3.0,<3.2.0 || >3.2.0"
+flake8 = ">=3,<3.2 || >3.2"
+
+[[package]]
+name = "flake8-comprehensions"
+version = "3.17.0"
+description = "A flake8 plugin to help you write better list/set/dict comprehensions."
+optional = false
+python-versions = ">=3.9"
+groups = ["dev"]
+markers = "python_version >= \"3.10\" and python_version < \"3.12\" or python_version >= \"3.12\""
+files = [
+    {file = "flake8_comprehensions-3.17.0-py3-none-any.whl", hash = "sha256:3943a9c6f2593c3bc5cc64106c2f89d63c6ecd49c8343597f8257b8fcfc8b0a2"},
+    {file = "flake8_comprehensions-3.17.0.tar.gz", hash = "sha256:bf4fa102b2bf4d6c9e999e29e4b2724cbadffb70b937600fc782161be4dc0f4a"},
+]
+
+[package.dependencies]
+flake8 = ">=3,<3.2 || >3.2"
 
 [[package]]
 name = "flake8-eradicate"
@@ -3638,4 +3655,4 @@ all = ["matplotlib", "mplfinance", "numpy", "pandas"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.8"
-content-hash = "e6372d021e9d82558aa4b85275facb16a5aa3b8ebfeddd48c77c30e128a76266"
+content-hash = "caab77029307b259794402a1181ab418cc9c5e297de87851a661ccb159f70a61"
