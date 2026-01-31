@@ -20,7 +20,7 @@ exclude = ["tinkoff/__init__.py"]
 python = "^3.14"
 cachetools = "^6.2.6"
 grpcio = "^1.76.0"
-protobuf = "^5.29.5"
+protobuf = "^6.33.5"
 python-dateutil = "^2.9.0"
 deprecation = "^2.1.0"
 matplotlib = { version = "^3.10.8", optional = true}
