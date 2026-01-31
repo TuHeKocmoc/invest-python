@@ -2730,21 +2730,21 @@ pbr = ">=2.0.0,<2.1.0 || >2.1.0"
 
 [[package]]
 name = "termynal"
-version = "0.2.0"
-description = ""
+version = "0.13.1"
+description = "A lightweight and modern animated terminal window"
 optional = false
-python-versions = ">=3.7,<4.0"
+python-versions = ">=3.9"
 groups = ["docs"]
 files = [
-    {file = "termynal-0.2.0-py3-none-any.whl", hash = "sha256:1d8f73c9c21414253e812f1684431cf7eda5d9f4539aa7479e055b5cac33873f"},
-    {file = "termynal-0.2.0.tar.gz", hash = "sha256:b83642fff7a5b93bb08aa3655754e0410f124f2e75cd34ce1b161a90fc621f8e"},
+    {file = "termynal-0.13.1-py3-none-any.whl", hash = "sha256:7a1605a4d4ed38bf851bf25f842aafa52ef29786d52762aecee59622ed030592"},
+    {file = "termynal-0.13.1.tar.gz", hash = "sha256:c7abecfdbda3ccdeee2723049a70f0e2e7f63e1973bb9b8f0b3fe6c1bfb391cd"},
 ]
 
 [package.dependencies]
-markdown = "*"
+markdown = ">=3"
 
 [package.extras]
-mkdocs = ["mkdocs"]
+mkdocs = ["mkdocs (>=1.4)"]
 
 [[package]]
 name = "tokenize-rt"
@@ -2981,4 +2981,4 @@ all = ["matplotlib", "mplfinance", "numpy", "pandas"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.8"
-content-hash = "b68bd29a19af574e2e5cd60fe1a0d696ee92143381a1eee91e7cf0e865d03e80"
+content-hash = "825491099fae9b3b7dfafb69e9ca1bf0599631370a8f67dae4da083e873f409d"
