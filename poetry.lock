@@ -791,21 +791,21 @@ dev = ["coverage", "hypothesis", "hypothesmith (>=0.2)", "pre-commit"]
 
 [[package]]
 name = "flake8-builtins"
-version = "1.5.3"
-description = "Check for python builtins being used as variables or parameters."
+version = "2.5.0"
+description = "Check for python builtins being used as variables or parameters"
 optional = false
-python-versions = "*"
+python-versions = ">=3.8"
 groups = ["dev"]
 files = [
-    {file = "flake8-builtins-1.5.3.tar.gz", hash = "sha256:09998853b2405e98e61d2ff3027c47033adbdc17f9fe44ca58443d876eb00f3b"},
-    {file = "flake8_builtins-1.5.3-py2.py3-none-any.whl", hash = "sha256:7706babee43879320376861897e5d1468e396a40b8918ed7bccf70e5f90b8687"},
+    {file = "flake8_builtins-2.5.0-py3-none-any.whl", hash = "sha256:8cac7c52c6f0708c0902b46b385bc7e368a9068965083796f1431c0d2e6550cf"},
+    {file = "flake8_builtins-2.5.0.tar.gz", hash = "sha256:bdaa3dd823e4f5308c5e712d19fa5f69daa52781ea874f5ea9c3637bcf56faa6"},
 ]
 
 [package.dependencies]
 flake8 = "*"
 
 [package.extras]
-test = ["coverage", "coveralls", "mock", "pytest", "pytest-cov"]
+test = ["pytest"]
 
 [[package]]
 name = "flake8-comprehensions"
@@ -3603,4 +3603,4 @@ all = ["matplotlib", "mplfinance", "numpy", "pandas"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.8"
-content-hash = "236b626c39624dc594b9c0f91cea801f364bfe3b773cc56f212d0377f7cfc70f"
+content-hash = "fa01818f81e6b6d1e0412811ca529e3ae207900809ae769e73ee212720eec1dd"
