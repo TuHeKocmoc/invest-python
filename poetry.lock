@@ -3054,19 +3054,18 @@ files = [
 
 [[package]]
 name = "toml-sort"
-version = "0.19.0"
+version = "0.23.1"
 description = "Toml sorting library"
 optional = false
-python-versions = ">=3.6,<4.0"
+python-versions = ">=3.7,<4.0"
 groups = ["dev"]
 files = [
-    {file = "toml-sort-0.19.0.tar.gz", hash = "sha256:5e81f5a9632fa4c7302642c6ea1b76468865adca9a23dee6e129f8ee50c1fb64"},
-    {file = "toml_sort-0.19.0-py3-none-any.whl", hash = "sha256:ca7c7100b0bd14faf3056361ddff478411a609fbaabd00c27d48569e62ab55bc"},
+    {file = "toml_sort-0.23.1-py3-none-any.whl", hash = "sha256:69ae60de9c4d67478533697eb4119092e2b30ddffe5ca09bbad3912905c935a0"},
+    {file = "toml_sort-0.23.1.tar.gz", hash = "sha256:833728c48b0f8d509aecd9ae8347768ca3a9332977b32c9fd2002932f0eb9c90"},
 ]
 
 [package.dependencies]
-click = ">=7.0"
-tomlkit = ">=0.5.8"
+tomlkit = ">=0.11.2"
 
 [[package]]
 name = "tomli"
@@ -3446,4 +3445,4 @@ all = ["matplotlib", "mplfinance", "numpy", "pandas"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.8"
-content-hash = "7389d30ecb3677e24cf15c24820549379db7710d487f6d7ce4d61cdb8ee7c0b7"
+content-hash = "a76da406dfc78d5331e045868b2a8dbe619b7af6effa54e9a44a18e8c198a929"
