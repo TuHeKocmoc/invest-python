@@ -2084,15 +2084,15 @@ mkdocstrings = ">=0.19"
 
 [[package]]
 name = "mplfinance"
-version = "0.12.9b7"
+version = "0.12.10b0"
 description = "Utilities for the visualization, and visual analysis, of financial data"
 optional = true
 python-versions = "*"
 groups = ["main"]
 markers = "extra == \"all\""
 files = [
-    {file = "mplfinance-0.12.9b7-py3-none-any.whl", hash = "sha256:8b5d186f0cd504f34da7547933c27e87f237fe3721a83de6b93c6eaf28377dcd"},
-    {file = "mplfinance-0.12.9b7.tar.gz", hash = "sha256:8c0ef47dfb465ea95b7c3577e261b57b5d6ad2bce6d287a17b8b4dd2fbacc92e"},
+    {file = "mplfinance-0.12.10b0-py3-none-any.whl", hash = "sha256:76d3b095f05ff35de730751649de063bea4064d0c49b21b6182c82997a7f52bb"},
+    {file = "mplfinance-0.12.10b0.tar.gz", hash = "sha256:7da150b5851aa5119ad6e06b55e48338b619bb6773f1b85df5de67a5ffd917bf"},
 ]
 
 [package.dependencies]
@@ -3644,4 +3644,4 @@ all = ["matplotlib", "mplfinance", "numpy", "pandas"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.8"
-content-hash = "7f63e4a44f24300b080394b47e20955a20be88d6572023099c794554c7dd6a91"
+content-hash = "5a37f31b563f9a481a06f532e0544f8abb1bcb0317add59f6ec634403967d18f"
