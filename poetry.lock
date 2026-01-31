@@ -724,18 +724,18 @@ pyflakes = ">=2.4.0,<2.5.0"
 
 [[package]]
 name = "flake8-annotations-complexity"
-version = "0.0.6"
+version = "0.0.8"
 description = "A flake8 extension that checks for type annotations complexity"
 optional = false
-python-versions = "*"
+python-versions = ">=3.7"
 groups = ["dev"]
 files = [
-    {file = "flake8_annotations_complexity-0.0.6-py3-none-any.whl", hash = "sha256:078a84e8269ef82c4c9de5198638e9a91a2089307d4e559666464a87b528ea69"},
-    {file = "flake8_annotations_complexity-0.0.6.tar.gz", hash = "sha256:32dfc8f42df3b16fb4fbc66a287433e176ae1bd39894d9aec898cfc70aef25cb"},
+    {file = "flake8_annotations_complexity-0.0.8-py3-none-any.whl", hash = "sha256:44e299dac0ab64f3af4b478fac7feb635c113a606036de8b39dadab3531da7ed"},
+    {file = "flake8_annotations_complexity-0.0.8.tar.gz", hash = "sha256:8914e76e31672c4063c928b0a250db6b935a16d1799de10457958a71d11bb665"},
 ]
 
 [package.dependencies]
-setuptools = "*"
+flake8 = "*"
 
 [[package]]
 name = "flake8-bandit"
@@ -3482,4 +3482,4 @@ all = ["matplotlib", "mplfinance", "numpy", "pandas"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.8"
-content-hash = "b5b8e97c2d251731d2fa0a4dc872c7f831269c6a37831402ea71f2b3eb90b5f2"
+content-hash = "96e5986cb193037919061efb12abddb5bd797b5370476a592d831821590ef058"
