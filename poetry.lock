@@ -3229,14 +3229,28 @@ files = [
 
 [[package]]
 name = "types-protobuf"
-version = "3.20.4.6"
+version = "5.29.1.20241207"
 description = "Typing stubs for protobuf"
 optional = false
-python-versions = "*"
+python-versions = ">=3.8"
 groups = ["dev"]
+markers = "python_version < \"3.10\""
 files = [
-    {file = "types-protobuf-3.20.4.6.tar.gz", hash = "sha256:ba27443c592bbec1629dd69494a24c84461c63f0d3b7d648ce258aaae9680965"},
-    {file = "types_protobuf-3.20.4.6-py3-none-any.whl", hash = "sha256:ab2d315ba82246b83d28f8797c98dc0fe1dd5cfd187909e56faf87239aedaae3"},
+    {file = "types_protobuf-5.29.1.20241207-py3-none-any.whl", hash = "sha256:92893c42083e9b718c678badc0af7a9a1307b92afe1599e5cba5f3d35b668b2f"},
+    {file = "types_protobuf-5.29.1.20241207.tar.gz", hash = "sha256:2ebcadb8ab3ef2e3e2f067e0882906d64ba0dc65fc5b0fd7a8b692315b4a0be9"},
+]
+
+[[package]]
+name = "types-protobuf"
+version = "5.29.1.20250403"
+description = "Typing stubs for protobuf"
+optional = false
+python-versions = ">=3.9"
+groups = ["dev"]
+markers = "python_version >= \"3.10\" and python_version < \"3.12\" or python_version >= \"3.12\""
+files = [
+    {file = "types_protobuf-5.29.1.20250403-py3-none-any.whl", hash = "sha256:c71de04106a2d54e5b2173d0a422058fae0ef2d058d70cf369fb797bf61ffa59"},
+    {file = "types_protobuf-5.29.1.20250403.tar.gz", hash = "sha256:7ff44f15022119c9d7558ce16e78b2d485bf7040b4fadced4dd069bb5faf77a2"},
 ]
 
 [[package]]
@@ -3468,4 +3482,4 @@ all = ["matplotlib", "mplfinance", "numpy", "pandas"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.8"
-content-hash = "fd4ed1dbd09c21037b6426f267f59ca7ae098a48229faebc28298bdc58ec8509"
+content-hash = "b5b8e97c2d251731d2fa0a4dc872c7f831269c6a37831402ea71f2b3eb90b5f2"
