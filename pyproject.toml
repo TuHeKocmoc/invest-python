@@ -40,7 +40,7 @@ autoflake = "^1.4"
 bandit = "^1.7.10"
 black = {extras = ["jupyter"], version = "^24.3.0"}
 codecov = "^2.1.12"
-flake8 = "^4.0.1"
+flake8 = "^5.0.4"
 flake8-annotations-complexity = "^0.0.8"
 flake8-bandit = "^3"
 flake8-breakpoint = "^1.1.0"
