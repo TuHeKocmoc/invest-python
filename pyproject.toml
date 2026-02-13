@@ -19,7 +19,7 @@ exclude = ["tinkoff/__init__.py"]
 [tool.poetry.dependencies]
 python = "^3.14"
 cachetools = "^7.0.0"
-grpcio = "^1.76.0"
+grpcio = "^1.78.0"
 protobuf = "^6.33.5"
 python-dateutil = "^2.9.0"
 deprecation = "^2.1.0"
