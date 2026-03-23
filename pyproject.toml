@@ -82,7 +82,7 @@ mkdocs = "^1.6"
 mkdocs-include-markdown-plugin = "^7.2.1"
 mkdocs-material = "^9.7.5"
 mkdocstrings = { version = "^1.0.3", extras = ["python"] }
-termynal = "^0.13.1"
+termynal = "^0.14.0"
 
 [tool.ruff]
 line-length = 88
